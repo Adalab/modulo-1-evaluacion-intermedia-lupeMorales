@@ -6,9 +6,7 @@
   .logo {
     transform: translateX(30px);
   }
-
   .hero h1 {
     font-size: 4rem;
-    width: 50%;
   }
 }
