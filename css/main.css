@@ -1,0 +1,15 @@
+:root {
+  --gris: #4a4a4a;
+  --white: #ffffff;
+  --turquesa-adalab: #3cdbc0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
