@@ -1,15 +1,12 @@
 @media screen and (min-width: 768px) {
-  .header {
+  header {
     flex-direction: row;
+    justify-content: space-between;
   }
-  /*  .header .logo {
-    position: absolute;
-    left: 0;
+  .logo {
+    transform: translateX(30px);
   }
-  .header .menu-bar {
-    position: absolute;
-    right: 5%;
-  } */
+
   .hero h1 {
     font-size: 4rem;
     width: 50%;
