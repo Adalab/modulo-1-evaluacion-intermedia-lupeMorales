@@ -13,6 +13,7 @@ html {
   font-size: 62.5%;
   font-family: "Rubik", sans-serif;
 }
+
 header {
   width: 100%;
   position: sticky;
@@ -21,9 +22,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px auto 13px;
+  /*  padding: 10px auto 13px; */
   background-color: var(--white);
 }
+/* .header img {
+  padding: 10px;
+  width: 155px;
+} */
 .header .menu-bar {
   text-align: center;
 }
@@ -36,6 +41,8 @@ header {
   font-weight: 300;
   text-decoration: none;
   margin-right: 20px;
+  padding: 10px; /* si pinchamos fuera justo de la palabra tb funcionará en link. buena practica responsive en botones y enlaces */
+  text-transform: uppercase;
 }
 main {
   width: 100%;
@@ -49,7 +56,10 @@ main {
 .hero h1 {
   font-size: 3rem;
   text-align: center;
-  width: 60%;
-  margin: auto;
+  width: 11ch; /* 11 se refiere a las letras,11 letras y salta */
   color: var(--white);
+  /*  width: 60%; */
+  /* width: 11ch; pones las letras del mayor */
+  /*  word-spacing: 100vw; el espacio sera 100 por eso va de palabra en palabra */
+  /*  margin: 0 auto; */
 }
