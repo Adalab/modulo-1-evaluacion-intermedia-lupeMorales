@@ -32,6 +32,7 @@ header {
   display: inline-block;
 }
 .menu-bar a {
+  font-size: 1.6rem;
   color: var(--gris);
   font-weight: 300;
   text-decoration: none;
