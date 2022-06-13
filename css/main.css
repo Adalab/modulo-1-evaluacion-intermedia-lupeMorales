@@ -16,19 +16,22 @@ html {
 
 header {
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*  padding: 10px auto 13px; */
+
+  padding-top: 10px;
+  padding-bottom: 13px;
   background-color: var(--white);
 }
-/* .header img {
+.header img {
   padding: 10px;
   width: 155px;
-} */
+  max-width: 155px;
+}
 .header .menu-bar {
   text-align: center;
 }
@@ -40,7 +43,6 @@ header {
   color: var(--gris);
   font-weight: 300;
   text-decoration: none;
-  margin-right: 20px;
   padding: 10px; /* si pinchamos fuera justo de la palabra tb funcionará en link. buena practica responsive en botones y enlaces */
   text-transform: uppercase;
 }
@@ -62,4 +64,5 @@ main {
   /* width: 11ch; pones las letras del mayor */
   /*  word-spacing: 100vw; el espacio sera 100 por eso va de palabra en palabra */
   /*  margin: 0 auto; */
+  text-transform: capitalize;
 }
